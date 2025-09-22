@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSoluciones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="logo">&lt;&gt; TechSoluciones</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <a class="btn-login" href="#">Login</a>
+    </header>
+
+    <main>
+        <section class="hero">
+            <button class="hero-control prev" aria-label="Slide anterior">&#10094;</button>
+            <div class="hero-slides">
+                <article class="slide active">
+                    <h1>Soluciones personalizadas</h1>
+                    <p>Desarrollamos software a medida para tus necesidades</p>
+                    <a class="btn-primary" href="services.html">Conocer m&aacute;s</a>
+                </article>
+                <article class="slide">
+                    <h1>Innovaci&oacute;n constante</h1>
+                    <p>Implementamos tecnolog&iacute;a de vanguardia para tu negocio</p>
+                    <a class="btn-primary" href="services.html">Nuestros servicios</a>
+                </article>
+                <article class="slide">
+                    <h1>Equipo experto</h1>
+                    <p>Acompa&ntilde;amos cada paso de tu transformaci&oacute;n digital</p>
+                    <a class="btn-primary" href="#">Cont&aacute;ctanos</a>
+                </article>
+            </div>
+            <button class="hero-control next" aria-label="Slide siguiente">&#10095;</button>
+            <div class="hero-dots" role="tablist" aria-label="Indicadores de carrusel">
+                <button class="dot active" aria-label="Ir al slide 1"></button>
+                <button class="dot" aria-label="Ir al slide 2"></button>
+                <button class="dot" aria-label="Ir al slide 3"></button>
+            </div>
+        </section>
+
+        <section class="intro">
+            <h2>L&iacute;deres en soluciones tecnol&oacute;gicas</h2>
+            <p>
+                En TechSoluciones, transformamos ideas en realidades digitales. Con m&aacute;s de 10 a&ntilde;os de experiencia,
+                ofrecemos servicios tecnol&oacute;gicos de vanguardia que impulsan el crecimiento de tu negocio.
+                Nuestro equipo de expertos est&aacute; comprometido con la excelencia y la innovaci&oacute;n.
+            </p>
+        </section>
+    </main>
+
+    <div class="modal-overlay login-overlay" id="loginModal" hidden aria-hidden="true">
+        <div class="modal-card login-card" role="dialog" aria-modal="true" aria-labelledby="loginTitle" aria-describedby="loginSubtitle">
+            <button class="modal-close" type="button" aria-label="Cerrar">&times;</button>
+            <form class="login-form" id="loginForm" novalidate>
+                <h2 class="login-title" id="loginTitle">Acceso Administrativo</h2>
+                <p class="login-subtitle" id="loginSubtitle">Ingresa tus credenciales para acceder al panel de administraci&oacute;n</p>
+                <label class="login-label" for="loginEmail">Email</label>
+                <input class="login-input" type="email" id="loginEmail" name="email" placeholder="administrativo@correo.com" required>
+                <label class="login-label" for="loginPassword">Contrase&ntilde;a</label>
+                <input class="login-input" type="password" id="loginPassword" name="password" placeholder="***********" required>
+                <p class="login-feedback" id="loginFeedback" role="status" aria-live="polite"></p>
+                <button class="login-submit" type="submit">Iniciar sesi&oacute;n</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <small>&copy; 2024 TechSoluciones. Todos los derechos reservados.</small>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

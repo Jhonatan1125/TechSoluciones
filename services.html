@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios | TechSoluciones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="logo">&lt;&gt; TechSoluciones</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a class="active" href="services.html">Servicios</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <a class="btn-login" href="#">Login</a>
+    </header>
+
+    <main class="services-page">
+        <section class="services-heading">
+            <h1>Nuestros Servicios</h1>
+            <p>Soluciones tecnol&oacute;gicas pensadas para impulsar tus proyectos y operaciones.</p>
+        </section>
+
+        <section class="services-gallery" aria-label="Listado de servicios">
+            <div class="services-grid" id="servicesGrid"></div>
+        </section>
+    </main>
+
+    <div class="modal-overlay login-overlay" id="loginModal" hidden aria-hidden="true">
+        <div class="modal-card login-card" role="dialog" aria-modal="true" aria-labelledby="loginTitle" aria-describedby="loginSubtitle">
+            <button class="modal-close" type="button" aria-label="Cerrar">&times;</button>
+            <form class="login-form" id="loginForm" novalidate>
+                <h2 class="login-title" id="loginTitle">Acceso Administrativo</h2>
+                <p class="login-subtitle" id="loginSubtitle">Ingresa tus credenciales para acceder al panel de administraci&oacute;n</p>
+                <label class="login-label" for="loginEmail">Email</label>
+                <input class="login-input" type="email" id="loginEmail" name="email" placeholder="administrativo@correo.com" required>
+                <label class="login-label" for="loginPassword">Contrase&ntilde;a</label>
+                <input class="login-input" type="password" id="loginPassword" name="password" placeholder="***********" required>
+                <p class="login-feedback" id="loginFeedback" role="status" aria-live="polite"></p>
+                <button class="login-submit" type="submit">Iniciar sesi&oacute;n</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="serviceModal" hidden aria-hidden="true">
+        <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-describedby="modalDescription">
+            <button class="modal-close" type="button" aria-label="Cerrar">&times;</button>
+            <div class="modal-illustration">
+                <img id="modalImage" alt="">
+            </div>
+            <div class="modal-body">
+                <div class="modal-info">
+                    <div class="modal-main">
+                        <h2 class="modal-title" id="modalTitle"></h2>
+                        <span class="modal-price" id="modalPrice"></span>
+                        <p class="modal-description" id="modalDescription"></p>
+                    </div>
+                    <div class="modal-meta">
+                        <span class="modal-meta-label" id="modalAvailabilityLabel"></span>
+                        <span class="modal-meta-value" id="modalAvailabilityValue"></span>
+                    </div>
+                </div>
+                <div class="modal-actions">
+                    <a class="modal-link" href="#">Solicitar cotizaci&oacute;n</a>
+                    <a class="modal-link" href="#">Ver agenda</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <small>&copy; 2024 TechSoluciones. Todos los derechos reservados.</small>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
