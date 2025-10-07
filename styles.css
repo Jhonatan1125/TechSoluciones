@@ -712,3 +712,124 @@ body {
         justify-content: flex-start;
     }
 }
+
+.info-page {
+    padding: 3rem clamp(1rem, 6vw, 4rem) 4rem;
+    background-color: #ffffff;
+}
+
+.info-hero {
+    max-width: 860px;
+    margin: 0 auto 3rem;
+    text-align: center;
+}
+
+.info-hero h1 {
+    margin: 0 0 1rem;
+    font-size: clamp(2.2rem, 5vw, 3rem);
+}
+
+.info-hero p {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #4a4a4a;
+}
+
+.info-content {
+    display: grid;
+    gap: 2.5rem;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.info-content article {
+    padding: 2rem;
+    border-radius: 12px;
+    background-color: #f8f8f8;
+    border: 1px solid #e4e4e4;
+}
+
+.info-content h2 {
+    margin: 0 0 1rem;
+    font-size: 1.6rem;
+}
+
+.info-content p,
+.info-content li {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #3a3a3a;
+}
+
+.info-content ul {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+
+.contact-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.contact-input,
+.contact-textarea {
+    padding: 0.8rem 0.95rem;
+    border: 1px solid #d5d5d5;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    outline: none;
+}
+
+.contact-textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.contact-input:focus,
+.contact-textarea:focus {
+    border-color: #4c59c2;
+    box-shadow: 0 0 0 3px rgba(76, 89, 194, 0.15);
+}
+
+.contact-submit {
+    align-self: flex-start;
+    margin-top: 0.5rem;
+    padding: 0.85rem 1.6rem;
+    background-color: #4c59c2;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.contact-submit:hover {
+    background-color: #3a45a1;
+}
+
+.contact-feedback {
+    min-height: 1.1rem;
+    margin: 0;
+    font-size: 0.85rem;
+    color: #2f8c4e;
+}
+
+@media (max-width: 768px) {
+    .info-content article {
+        padding: 1.5rem;
+    }
+}

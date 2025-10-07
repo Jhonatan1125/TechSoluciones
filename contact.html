@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios | TechSoluciones</title>
+    <title>Contacto | TechSoluciones</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,22 +12,45 @@
         <nav class="main-nav">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a class="active" href="services.html">Servicios</a></li>
+                <li><a href="services.html">Servicios</a></li>
                 <li><a href="about.html">Nosotros</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li><a class="active" href="contact.html">Contacto</a></li>
             </ul>
         </nav>
         <a class="btn-login" href="#">Login</a>
     </header>
 
-    <main class="services-page">
-        <section class="services-heading">
-            <h1>Nuestros Servicios</h1>
-            <p>Soluciones tecnol&oacute;gicas pensadas para impulsar tus proyectos y operaciones.</p>
+    <main class="info-page">
+        <section class="info-hero">
+            <h1>Conversemos sobre tu pr&oacute;ximo proyecto</h1>
+            <p>Completa el formulario y nuestro equipo se comunicar&aacute; contigo para dise&ntilde;ar la soluci&oacute;n que necesitas.</p>
         </section>
 
-        <section class="services-gallery" aria-label="Listado de servicios">
-            <div class="services-grid" id="servicesGrid"></div>
+        <section class="info-content">
+            <article>
+                <h2>Datos de contacto</h2>
+                <ul>
+                    <li>Email: contacto@techsoluciones.com</li>
+                    <li>Tel&eacute;fono: +57 300 000 0000</li>
+                    <li>Direcci&oacute;n: Cra 10 # 42-33, Bogot&aacute;, Colombia</li>
+                </ul>
+            </article>
+            <article>
+                <h2>Formulario de contacto</h2>
+                <form class="contact-form" id="contactForm">
+                    <label class="contact-label" for="contactName">Nombre</label>
+                    <input class="contact-input" type="text" id="contactName" name="name" placeholder="Tu nombre" required>
+
+                    <label class="contact-label" for="contactEmail">Email</label>
+                    <input class="contact-input" type="email" id="contactEmail" name="email" placeholder="tu@correo.com" required>
+
+                    <label class="contact-label" for="contactMessage">Mensaje</label>
+                    <textarea class="contact-textarea" id="contactMessage" name="message" placeholder="Cu&eacute;ntanos sobre tu proyecto" required></textarea>
+
+                    <button class="contact-submit" type="submit">Enviar mensaje</button>
+                    <p class="contact-feedback" id="contactFeedback" role="status" aria-live="polite"></p>
+                </form>
+            </article>
         </section>
     </main>
 
@@ -44,32 +67,6 @@
                 <p class="login-feedback" id="loginFeedback" role="status" aria-live="polite"></p>
                 <button class="login-submit" type="submit">Iniciar sesi&oacute;n</button>
             </form>
-        </div>
-    </div>
-
-    <div class="modal-overlay" id="serviceModal" hidden aria-hidden="true">
-        <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-describedby="modalDescription">
-            <button class="modal-close" type="button" aria-label="Cerrar">&times;</button>
-            <div class="modal-illustration">
-                <img id="modalImage" alt="">
-            </div>
-            <div class="modal-body">
-                <div class="modal-info">
-                    <div class="modal-main">
-                        <h2 class="modal-title" id="modalTitle"></h2>
-                        <span class="modal-price" id="modalPrice"></span>
-                        <p class="modal-description" id="modalDescription"></p>
-                    </div>
-                    <div class="modal-meta">
-                        <span class="modal-meta-label" id="modalAvailabilityLabel"></span>
-                        <span class="modal-meta-value" id="modalAvailabilityValue"></span>
-                    </div>
-                </div>
-                <div class="modal-actions">
-                    <a class="modal-link" href="#">Solicitar cotizacion</a>
-                    <a class="modal-link" href="#">Ver agenda</a>
-                </div>
-            </div>
         </div>
     </div>
 
