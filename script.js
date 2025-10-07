@@ -7,100 +7,100 @@
             title: "Desarrollo web",
             price: "600.000 COP",
             shortDescription: "Aplicaciones web modernas y responsivas",
-            longDescription: "Dise&ntilde;amos y desarrollamos sitios y aplicaciones web adaptables, optimizadas para rendimiento y SEO.",
+            longDescription: "Diseñamos y desarrollamos sitios y aplicaciones web adaptables, optimizadas para rendimiento y SEO.",
             availabilityLabel: "Disponibilidad",
             availabilityValue: "5 proyectos",
-            image: "Images/Desarrollo web.jpg"
+            image: "Imagenes/Desarrollo web.jpg"
         },
         {
             id: "mobile-dev",
-            title: "Desarrollo M&oacute;vil",
+            title: "Desarrollo móvil",
             price: "600.000 COP",
             shortDescription: "Aplicaciones nativas para iOS y Android",
-            longDescription: "Publica tu app en los principales marketplaces con un desempe&ntilde;o impecable y mantenimiento continuo.",
+            longDescription: "Publica tu app en los principales marketplaces con un desempeño impecable y mantenimiento continuo.",
             availabilityLabel: "Disponibilidad",
             availabilityValue: "3 proyectos",
-            image: "Images/Desarrollo movil.jpg"
+            image: "Imagenes/Desarrollo movil.jpg"
         },
         {
             id: "database",
-            title: "Base de Datos",
+            title: "Base de datos",
             price: "300.000 COP",
-            shortDescription: "Dise&ntilde;o y administraci&oacute;n de bases de datos",
+            shortDescription: "Diseño y administración de bases de datos",
             longDescription: "Modelamos, implementamos y monitoreamos tus datos para asegurar disponibilidad y escalabilidad.",
             availabilityLabel: "Disponibilidad",
             availabilityValue: "6 servicios",
-            image: "Images/Bases de datos.jpg"
+            image: "Imagenes/Bases de datos.jpg"
         },
         {
             id: "cybersecurity",
             title: "Ciberseguridad",
             price: "450.000 COP",
-            shortDescription: "Auditor&iacute;as y consultor&iacute;a en seguridad inform&aacute;tica",
+            shortDescription: "Auditorías y consultoría en seguridad informática",
             longDescription: "Protegemos tu infraestructura con evaluaciones de riesgo, hardening y monitoreo continuo.",
             availabilityLabel: "Disponibilidad",
             availabilityValue: "8 servicios",
-            image: "Images/Ciberseguridad.jpg"
+            image: "Imagenes/Ciberseguridad.jpg"
         },
         {
             id: "cloud",
-            title: "Cloud Computing",
+            title: "Cloud computing",
             price: "1.200.000 COP",
-            shortDescription: "Migraci&oacute;n y gesti&oacute;n de infraestructura en la nube",
+            shortDescription: "Migración y gestión de infraestructura en la nube",
             longDescription: "Aprovecha la elasticidad de la nube con arquitecturas seguras, eficientes y automatizadas.",
             availabilityLabel: "Disponibilidad",
             availabilityValue: "4 proyectos",
-            image: "Images/Cloud computing.jpg"
+            image: "Imagenes/Cloud computing.jpg"
         },
         {
             id: "consulting",
-            title: "Consultor&iacute;a IT",
+            title: "Consultoría IT",
             price: "150.000 COP",
-            shortDescription: "Acompa&ntilde;amiento estrat&eacute;gico para equipos de TI",
-            longDescription: "Impulsa tus iniciativas tecnol&oacute;gicas con asesor&iacute;a experta, roadmaps y evaluaciones de madurez.",
+            shortDescription: "Acompañamiento estratégico para equipos de TI",
+            longDescription: "Impulsa tus iniciativas tecnológicas con asesoría experta, roadmaps y evaluaciones de madurez.",
             availabilityLabel: "Disponibilidad",
             availabilityValue: "10 sesiones",
-            image: "Images/Consultoria IT.jpg"
+            image: "Imagenes/Consultoria IT.jpg"
         },
         {
             id: "ecommerce",
             title: "E-commerce",
             price: "500.000 COP",
-            shortDescription: "Tiendas en l&iacute;nea seguras y escalables",
-            longDescription: "Lanza tu canal digital con plataformas robustas, integraciones y anal&iacute;tica de conversi&oacute;n.",
+            shortDescription: "Tiendas en línea seguras y escalables",
+            longDescription: "Lanza tu canal digital con plataformas robustas, integraciones y analítica de conversión.",
             availabilityLabel: "Disponibilidad",
             availabilityValue: "4 tiendas",
-            image: "Images/E-commerce.jpg"
+            image: "Imagenes/E-commerce.jpg"
         },
         {
             id: "automation",
-            title: "Automatizaci&oacute;n",
+            title: "Automatización",
             price: "200.000 COP",
-            shortDescription: "Integraci&oacute;n de procesos con herramientas digitales",
-            longDescription: "Automatizamos tareas repetitivas y conectamos sistemas mediante flujos sin fricci&oacute;n.",
+            shortDescription: "Integración de procesos con herramientas digitales",
+            longDescription: "Automatizamos tareas repetitivas y conectamos sistemas mediante flujos sin fricción.",
             availabilityLabel: "Disponibilidad",
             availabilityValue: "6 procesos",
-            image: "Images/Automatizacion.jpg"
+            image: "Imagenes/Automatizacion.jpg"
         },
         {
             id: "analytics",
-            title: "Anal&iacute;tica de Datos",
+            title: "Analítica de datos",
             price: "350.000 COP",
             shortDescription: "Tableros e informes para decisiones basadas en datos",
-            longDescription: "Centraliza informaci&oacute;n y genera visualizaciones accionables con indicadores personalizados.",
+            longDescription: "Centraliza información y genera visualizaciones accionables con indicadores personalizados.",
             availabilityLabel: "Disponibilidad",
             availabilityValue: "7 tableros",
-            image: "Images/Analitica de datos.jpg"
+            image: "Imagenes/Analitica de datos.jpg"
         },
         {
             id: "support",
-            title: "Soporte T&eacute;cnico",
+            title: "Soporte técnico",
             price: "250.000 COP",
             shortDescription: "Mesa de ayuda y mantenimiento preventivo",
             longDescription: "Resolvemos incidencias y cuidamos tus activos digitales con monitoreo y soporte extendido.",
             availabilityLabel: "Disponibilidad",
             availabilityValue: "24/7",
-            image: "Images/Soporte tecnico.jpg"
+            image: "Imagenes/Soporte tecnico.jpg"
         }
     ];
 
@@ -551,3 +551,11 @@
         });
     }
 });
+
+
+
+
+
+
+
+
