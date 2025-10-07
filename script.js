@@ -459,13 +459,13 @@
                 shortInput.className = "admin-input";
                 shortInput.name = "shortDescription";
                 shortInput.value = service.shortDescription;
-                fields.appendChild(buildInputField("Descripci&oacute;n corta", shortInput));
+                fields.appendChild(buildInputField("Descripcion corta", shortInput));
 
                 const longTextarea = document.createElement("textarea");
                 longTextarea.className = "admin-textarea";
                 longTextarea.name = "longDescription";
                 longTextarea.value = service.longDescription || "";
-                fields.appendChild(buildInputField("Descripci&oacute;n larga", longTextarea));
+                fields.appendChild(buildInputField("Descripcion larga", longTextarea));
 
                 const availabilityGroup = document.createElement("div");
                 availabilityGroup.className = "admin-field-group";
