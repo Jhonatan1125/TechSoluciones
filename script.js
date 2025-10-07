@@ -10,7 +10,7 @@
             longDescription: "Diseñamos y desarrollamos sitios y aplicaciones web adaptables, optimizadas para rendimiento y SEO.",
             availabilityLabel: "Disponibilidad",
             availabilityValue: "5 proyectos",
-            image: "Imagenes/Desarrollo web.jpg"
+            image: "Images/Desarrollo web.jpg"
         },
         {
             id: "mobile-dev",
@@ -20,7 +20,7 @@
             longDescription: "Publica tu app en los principales marketplaces con un desempeño impecable y mantenimiento continuo.",
             availabilityLabel: "Disponibilidad",
             availabilityValue: "3 proyectos",
-            image: "Imagenes/Desarrollo movil.jpg"
+            image: "Images/Desarrollo movil.jpg"
         },
         {
             id: "database",
@@ -30,7 +30,7 @@
             longDescription: "Modelamos, implementamos y monitoreamos tus datos para asegurar disponibilidad y escalabilidad.",
             availabilityLabel: "Disponibilidad",
             availabilityValue: "6 servicios",
-            image: "Imagenes/Bases de datos.jpg"
+            image: "Images/Bases de datos.jpg"
         },
         {
             id: "cybersecurity",
@@ -40,7 +40,7 @@
             longDescription: "Protegemos tu infraestructura con evaluaciones de riesgo, hardening y monitoreo continuo.",
             availabilityLabel: "Disponibilidad",
             availabilityValue: "8 servicios",
-            image: "Imagenes/Ciberseguridad.jpg"
+            image: "Images/Ciberseguridad.jpg"
         },
         {
             id: "cloud",
@@ -50,7 +50,7 @@
             longDescription: "Aprovecha la elasticidad de la nube con arquitecturas seguras, eficientes y automatizadas.",
             availabilityLabel: "Disponibilidad",
             availabilityValue: "4 proyectos",
-            image: "Imagenes/Cloud computing.jpg"
+            image: "Images/Cloud computing.jpg"
         },
         {
             id: "consulting",
@@ -60,7 +60,7 @@
             longDescription: "Impulsa tus iniciativas tecnológicas con asesoría experta, roadmaps y evaluaciones de madurez.",
             availabilityLabel: "Disponibilidad",
             availabilityValue: "10 sesiones",
-            image: "Imagenes/Consultoria IT.jpg"
+            image: "Images/Consultoria IT.jpg"
         },
         {
             id: "ecommerce",
@@ -70,7 +70,7 @@
             longDescription: "Lanza tu canal digital con plataformas robustas, integraciones y analítica de conversión.",
             availabilityLabel: "Disponibilidad",
             availabilityValue: "4 tiendas",
-            image: "Imagenes/E-commerce.jpg"
+            image: "Images/E-commerce.jpg"
         },
         {
             id: "automation",
@@ -80,7 +80,7 @@
             longDescription: "Automatizamos tareas repetitivas y conectamos sistemas mediante flujos sin fricción.",
             availabilityLabel: "Disponibilidad",
             availabilityValue: "6 procesos",
-            image: "Imagenes/Automatizacion.jpg"
+            image: "Images/Automatizacion.jpg"
         },
         {
             id: "analytics",
@@ -90,7 +90,7 @@
             longDescription: "Centraliza información y genera visualizaciones accionables con indicadores personalizados.",
             availabilityLabel: "Disponibilidad",
             availabilityValue: "7 tableros",
-            image: "Imagenes/Analitica de datos.jpg"
+            image: "Images/Analitica de datos.jpg"
         },
         {
             id: "support",
@@ -100,7 +100,7 @@
             longDescription: "Resolvemos incidencias y cuidamos tus activos digitales con monitoreo y soporte extendido.",
             availabilityLabel: "Disponibilidad",
             availabilityValue: "24/7",
-            image: "Imagenes/Soporte tecnico.jpg"
+            image: "Images/Soporte tecnico.jpg"
         }
     ];
 
